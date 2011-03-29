@@ -39,9 +39,9 @@ public class Main extends Activity {
 		setContentView(R.layout.main);
 
 		foursquare = new Foursquare(
-				"PDXBFRCR3YJQNMKHCBXUXY4RAPHFJ4U3TKQL45LGAIQOIXQB",
-				"VTIC1FF5EPYA2I2TIOLSADJF0VIPMO5DOJS2LSWZWJS1EUEN",
-				"http://www.appkakkak.com");
+				"YOUR_CLIENT_ID",
+				"YOUR_CLIENT_SECRET"
+				"REDIRECT_URL");
 
 		foursquare.authorize(this, new FoursquareAuthenDialogListener());
 
